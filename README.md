@@ -1,5 +1,5 @@
-# Role Play Online
-PlayFab Title ID: A823B
-Photon AppID: 08c826bd-ea5e-45e6-b506-4b8a480ff1e8
+# Geek Brains Game
+PlayFab Title ID: 9A286
+Photon AppID: 1a35e9d1-8ad7-4e3a-b8ef-27b91c08866f
 
-Formerly gb0122
+Formerly KSDStudios
