@@ -1,0 +1,251 @@
+{
+  "CatalogVersion": "GameCatalog v1.0",
+  "Catalog": [
+    {
+      "ItemId": "HP_small",
+      "ItemClass": "Health",
+      "CatalogVersion": "GameCatalog v1.0",
+      "DisplayName": "Health potion",
+      "Description": "Restores 25 HP",
+      "VirtualCurrencyPrices": {
+        "FL": 50
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "consumable",
+        "health recovery"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "HP_big",
+      "ItemClass": "Health",
+      "CatalogVersion": "GameCatalog v1.0",
+      "DisplayName": "First aid kit",
+      "Description": "Restores 100 HP",
+      "VirtualCurrencyPrices": {
+        "FL": 100
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "consumable",
+        "health recovery"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": 5,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "Sword_wpn",
+      "ItemClass": "Weapon",
+      "CatalogVersion": "GameCatalog v1.0",
+      "DisplayName": "Simple sword",
+      "Description": "",
+      "VirtualCurrencyPrices": {
+        "FL": 250
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "weapon",
+        "sword",
+        "one hand",
+        "fast attack",
+        "parry"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "Axe_wpn",
+      "ItemClass": "Weapon",
+      "CatalogVersion": "GameCatalog v1.0",
+      "DisplayName": "Simple axe",
+      "Description": "",
+      "VirtualCurrencyPrices": {
+        "FL": 300
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "weapon",
+        "axe",
+        "two hands",
+        "slow attack",
+        "bleeding"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "Hammer_wpn",
+      "ItemClass": "Weapon",
+      "CatalogVersion": "GameCatalog v1.0",
+      "DisplayName": "Simple hammer",
+      "Description": "",
+      "VirtualCurrencyPrices": {
+        "FL": 300
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "weapon",
+        "hammer",
+        "two hands",
+        "slow attack",
+        "stun"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "Start_bndl",
+      "ItemClass": null,
+      "CatalogVersion": "GameCatalog v1.0",
+      "DisplayName": "Starter bundle",
+      "Description": null,
+      "VirtualCurrencyPrices": {
+        "RM": 5
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "Sword_wpn"
+        ],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "First_aid_container",
+      "ItemClass": null,
+      "CatalogVersion": "GameCatalog v1.0",
+      "DisplayName": "First aid container",
+      "Description": null,
+      "VirtualCurrencyPrices": {
+        "RM": 5
+      },
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": null,
+        "ItemContents": [
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_small",
+          "HP_big",
+          "HP_big",
+          "HP_big",
+          "HP_big",
+          "HP_big"
+        ],
+        "ResultTableContents": [],
+        "VirtualCurrencyContents": null
+      },
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    }
+  ],
+  "DropTables": []
+}

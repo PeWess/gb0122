@@ -8,7 +8,7 @@ using WebSocketSharp;
 public class PlayFabAccountManager : MonoBehaviour
 {
     [SerializeField] private Text _titleLabel;
-    
+
     private const string _nicknameKey = "Player-nickname";
     private const string _passwordKey = "Player-password";
     
