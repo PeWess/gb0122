@@ -1,0 +1,11 @@
+[
+  {
+    "CurrencyCode": "FL",
+    "DisplayName": "Florin",
+    "InitialDeposit": 100,
+    "RechargeRate": 50,
+    "RechargeMax": 50000,
+    "CurrencyCodeFull": "FL (Florin)",
+    "GameManagerClassMetadata": null
+  }
+]
