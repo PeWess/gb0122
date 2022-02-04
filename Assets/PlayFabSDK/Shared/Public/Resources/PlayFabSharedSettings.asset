@@ -15,7 +15,7 @@ MonoBehaviour:
   TitleId: BADF2
   DeveloperSecretKey: RFBTNMY6UAKTBO756BA9M4TKKYS47Y7UNAFE8XADOPCJ6ZIZH4
   ProductionEnvironmentUrl: 
-  RequestType: 2
+  RequestType: 0
   DisableDeviceInfo: 0
   DisableFocusTimeCollection: 0
   RequestTimeout: 2000
