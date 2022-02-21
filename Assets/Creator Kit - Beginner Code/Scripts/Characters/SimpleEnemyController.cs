@@ -69,6 +69,9 @@ namespace CreatorKitCodeInternal {
         // Update is called once per frame
         void Update()
         {
+            if (!CharacterControl.Instance.isActiveAndEnabled)
+                return;
+            
             //See the Update function of CharacterControl.cs for a comment on how we could replace
             //this (polling health) to a callback method.
             if (m_CharacterData.Stats.CurrentHealth == 0)

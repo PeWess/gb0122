@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class RoomSettings : MonoBehaviour
@@ -18,5 +19,12 @@ public class RoomSettings : MonoBehaviour
     public void CloseRoom()
     {
         PhotonNetwork.CurrentRoom.IsOpen = !_isClosed.isOn;
+    }
+
+    public void OnGameStarted()
+    {
+        CloseRoom();
+        HideServer();
+        SceneManager.LoadScene("GameScene");
     }
 }
