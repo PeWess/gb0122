@@ -82,6 +82,7 @@ public class PhotonLoginManager : MonoBehaviourPunCallbacks
             newPlayer.transform.localPosition = new Vector3(0, yCoord, 0);
             newPlayer.gameObject.GetComponentInChildren<Text>().text = p.UserId;
             yCoord -= 65;
+            newPlayer.SetActive(true);
         }
     }
     
@@ -98,6 +99,7 @@ public class PhotonLoginManager : MonoBehaviourPunCallbacks
             yCoord += 65; 
             
             newRoom.gameObject.GetComponentInChildren<Button>().onClick.AddListener(delegate { ConnectToRoom(room.Value.Name); });
+            newRoom.SetActive(true);
         }
     }
     
